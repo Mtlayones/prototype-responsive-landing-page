@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import styles from './Signin.module.css';
+import styles from './Signup.module.css';
 import { useRouter } from 'next/router';
 
-export default function Signin() {
+export default function Signup() {
 	const router = useRouter();
 	return (
 		<div className={styles.container}>
@@ -21,13 +21,14 @@ export default function Signin() {
 						onSubmit={(e) => {
 							e.preventDefault;
 						}}>
-						<h1 className={styles.heading_text}>Welcome back!</h1>
-						<h3 className={styles.subheading_text}>
-							We're glad to see you gain!
-						</h3>
-						<h5 className={styles.label_text}>
-							Email or Phone Number
-						</h5>
+						<h1 className={styles.heading_text}>
+							Create an Account
+						</h1>
+						<h5 className={styles.label_text}>Email</h5>
+						<div className={styles.input_container}>
+							<input type='text' className={styles.input_form} />
+						</div>
+						<h5 className={styles.label_text}>Username</h5>
 						<div className={styles.input_container}>
 							<input type='text' className={styles.input_form} />
 						</div>
@@ -38,13 +39,16 @@ export default function Signin() {
 								className={styles.input_form}
 							/>
 						</div>
-						<div className={styles.button_tertiary_container}>
-							<button className={styles.button_tertiary}>
-								Forgot Password?
-							</button>
+						<h5 className={styles.label_text}>Confirm Password</h5>
+						<div className={styles.input_container}>
+							<input
+								type='password'
+								className={styles.input_form}
+							/>
 						</div>
+
 						<button type='submit' className={styles.button_primary}>
-							Sign In
+							Sign Up
 						</button>
 						<button
 							type='button'
@@ -56,15 +60,14 @@ export default function Signin() {
 							Go Back Home
 						</button>
 						<div className={styles.button_tertiary_container}>
-							Don't have an account?
+							Already have an account?
 							<button
-								type='button'
 								className={styles.button_tertiary}
 								onClick={(e) => {
 									e.preventDefault;
-									router.push('/signup');
+									router.push('/signin');
 								}}>
-								Signup
+								Signin
 							</button>
 						</div>
 					</form>
