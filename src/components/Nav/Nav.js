@@ -2,6 +2,7 @@ import styles from './Nav.module.css';
 import Image from 'next/image';
 import logo from '../../assets/logo.svg';
 import { useState, useEffect, useRef } from 'react';
+import { useRouter } from 'next/router';
 import { AiOutlineMenu } from 'react-icons/ai';
 
 const useClickOutside = (ref, callback) => {
@@ -24,6 +25,7 @@ const useClickOutside = (ref, callback) => {
 };
 
 const Nav = () => {
+    const router = useRouter();
     const [toggleMenu, setToggleMenu] = useState(false);
     const componentRef = useRef();
     useClickOutside(componentRef, () => {
@@ -55,7 +57,7 @@ const Nav = () => {
                 <li className="w-full flex justify-center"><button className={styles.button_tertiary}>CONTACT</button></li>
                 <li className="mr-0 md:mr-2 w-full flex justify-center"><button className={styles.button_tertiary}>CART</button></li>
                 <li className="w-full flex justify-center">
-                    <button className={styles.button_primary}>Sign In</button>
+                    <button className={styles.button_primary} onClick={() => router.push('/signin')}>Sign In</button>
                 </li>
                 <li className="w-full flex justify-center">
                     <button className={styles.button_secondary}>Sign Up</button>

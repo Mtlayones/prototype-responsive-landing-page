@@ -1,0 +1,108 @@
+.container {
+    @apply h-screen w-screen;
+    @apply flex-col justify-center items-center;
+    @apply bg-no-repeat bg-cover bg-center bg-fixed;
+    @apply overflow-y-auto;
+    background-image: url('../../assets/background.svg');
+  }
+  
+  .body {
+    @apply w-screen h-screen flex flex-row justify-center items-center;
+  }
+  
+  .landing_page {
+    @apply overflow-y-auto fixed;
+    @apply bg-white;
+    @apply shadow-2xl;
+    @apply rounded-md;
+    @apply flex flex-col;
+    @apply sm:w-11/12 md:w-9/12 lg:w-7/12 xl:w-6/12 max:w-4/12;
+    @apply h-auto;
+  }
+
+  .form_signin{
+    @apply flex flex-col;
+    @apply p-10 lg:p-12 xl:p-14 max:p-20;
+  }
+
+  .heading_text{
+    @apply text-2xl md:text-3xl lg:text-4xl xl:text-5xl max:text-6xl;
+    @apply font-bold;
+    @apply text-blue-500;
+    @apply mb-1;
+  }
+
+  .subheading_text{
+    @apply text-base md:text-lg lg:text-xl xl:text-2xl max:text-3xl;
+    @apply font-semibold;
+    @apply text-blue-400;
+    @apply mb-4;
+  }
+
+  .label_text{
+    @apply text-sm md:text-base lg:text-lg xl:text-xl max:text-2xl;
+    @apply font-bold;
+    @apply text-blue-500;
+    @apply mb-1;
+  }
+
+  .input_form{
+    @apply w-full;
+    @apply focus-within:outline-none;
+    @apply p-2;
+    @apply px-4;
+    @apply text-sm md:text-base lg:text-lg xl:text-xl max:text-2xl text-gray-500;
+    @apply font-semibold;
+  }
+
+  .input_container{
+    @apply border-2 border-blue-500;
+    @apply flex flex-row;
+    @apply w-full;
+    @apply mb-1; 
+  }
+
+  .button_primary{
+    @apply bg-blue-500;
+    @apply border-blue-500 border-2 rounded;
+    @apply text-white font-bold;
+    @apply focus-within:outline-none;
+    @apply hover:bg-blue-400;
+    @apply hover:shadow-xl;
+    @apply hover:shadow-md;
+    @apply p-3 ;
+    @apply w-full;
+    @apply mb-2;
+    @apply text-sm md:text-base lg:text-lg xl:text-xl max:text-2xl;
+  }
+
+  .button_secondary {
+    @apply border-blue-500 border-2 rounded;
+    @apply text-blue-500 font-bold;
+    @apply focus-within:outline-none;
+    @apply hover:border-blue-700;
+    @apply hover:text-blue-700;
+    @apply p-3;
+    @apply w-full;
+    @apply mb-4; 
+    @apply text-sm md:text-base lg:text-lg xl:text-xl max:text-2xl;
+}
+
+
+  .button_tertiary {
+    @apply focus-within:outline-none;
+    @apply hover:border-blue-700;
+    @apply hover:text-blue-700;
+    @apply px-1 p-2;
+    @apply text-sm md:text-lg;
+    @apply font-bold;
+    @apply text-blue-400;
+    @apply text-sm md:text-base lg:text-lg xl:text-xl max:text-2xl;
+}
+
+.button_tertiary_container{
+  @apply mb-4;
+  @apply font-bold;
+  @apply text-sm md:text-base lg:text-lg xl:text-xl max:text-2xl;
+  @apply text-blue-500;
+}
