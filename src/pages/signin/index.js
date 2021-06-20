@@ -23,7 +23,7 @@ export default function Signin() {
 						}}>
 						<h1 className={styles.heading_text}>Welcome back!</h1>
 						<h3 className={styles.subheading_text}>
-							We're glad to see you gain!
+							{`We're glad to see you again!`}
 						</h3>
 						<h5 className={styles.label_text}>
 							Email or Phone Number
@@ -56,7 +56,7 @@ export default function Signin() {
 							Go Back Home
 						</button>
 						<div className={styles.button_tertiary_container}>
-							Don't have an account?
+							{`Don't have an account?`}
 							<button
 								type='button'
 								className={styles.button_tertiary}

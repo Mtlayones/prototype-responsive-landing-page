@@ -7,7 +7,7 @@
 }
 
 .body {
-  @apply flex flex-col justify-end;
+  @apply flex flex-col justify-center items-center;
 }
 
 .landing_page {
@@ -19,7 +19,7 @@
 
 .image_container {
   @apply w-full flex justify-center;
-  @apply mt-8 md:mt-14 lg:mt-20;
+  @apply mt-8 md:mt-24 lg:mt-20;
 }
 
 .text_container{
