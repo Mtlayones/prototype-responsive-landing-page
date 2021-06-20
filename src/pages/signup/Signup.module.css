@@ -26,19 +26,12 @@
   }
 
   .heading_text{
-    @apply text-2xl md:text-3xl lg:text-4xl xl:text-5xl max:text-6xl;
+    @apply text-lg md:text-xl lg:text-2xl xl:text-3xl max:text-4xl;
     @apply font-bold;
     @apply text-blue-500;
-    @apply mb-1;
+    @apply mb-2;
+    @apply text-center;
   }
-
-  .subheading_text{
-    @apply text-base md:text-lg lg:text-xl xl:text-2xl max:text-3xl;
-    @apply font-semibold;
-    @apply text-blue-400;
-    @apply mb-4;
-  }
-
   .label_text{
     @apply text-sm md:text-base lg:text-lg xl:text-xl max:text-2xl;
     @apply font-bold;
@@ -72,7 +65,7 @@
     @apply hover:shadow-md;
     @apply p-3 ;
     @apply w-full;
-    @apply mb-2;
+    @apply mb-2 mt-6;
     @apply text-sm md:text-base lg:text-lg xl:text-xl max:text-2xl;
   }
 
@@ -101,7 +94,6 @@
 }
 
 .button_tertiary_container{
-  @apply mb-4;
   @apply font-semibold;
   @apply text-sm md:text-base lg:text-lg xl:text-xl max:text-2xl;
   @apply text-blue-500;
