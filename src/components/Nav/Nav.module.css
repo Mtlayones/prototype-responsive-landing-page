@@ -1,0 +1,75 @@
+.nav_custom {
+    @apply flex flex-col lg:flex-row justify-between fixed w-screen items-center;
+    @apply p-2 bg-white;
+    @apply px-4 lg:px-6;
+    @apply shadow-lg;
+    @apply z-20;
+}
+
+.nav_items_noncontractable{
+    @apply flex w-full lg:w-auto;
+    @apply items-center justify-between;
+}
+
+.nav_items {
+    @apply flex gap-2 font-bold;
+}
+
+.nav_items_contractable {
+    @apply hidden lg:flex items-center gap-3 font-bold;
+    @apply mr-2;
+}
+
+.nav_items_contractable_true {
+    @apply w-full;
+    @apply flex flex-col items-center justify-center gap-2;
+    @apply my-4;
+    @apply p-2;
+}
+
+.button_primary {
+    @apply bg-blue-500;
+    @apply border-blue-500 border-2 rounded;
+    @apply text-white font-bold;
+    @apply focus-within:outline-none;
+    @apply hover:bg-blue-700;
+    @apply hover:shadow-md;
+    @apply p-2 ;
+    @apply px-2 lg:px-4;
+    @apply w-full lg:w-max;
+}
+
+.button_secondary {
+    @apply border-blue-500 border-2 rounded;
+    @apply text-blue-500 font-bold;
+    @apply focus-within:outline-none;
+    @apply hover:border-blue-700;
+    @apply hover:text-blue-700;
+    @apply p-2;
+    @apply px-2 lg:px-2;
+    @apply w-full lg:w-max;
+}
+
+.button_tertiary {
+    @apply text-blue-500 font-bold border-2 border-transparent lg:border-0;
+    @apply focus-within:outline-none;
+    @apply hover:border-blue-700;
+    @apply hover:text-blue-700;
+    @apply p-1;
+    @apply w-full lg:w-max;
+}
+
+.button_logo{
+    @apply w-24 lg:w-28;
+    @apply focus-within:outline-none;
+    @apply mx-auto lg:mx-0;
+    @apply flex items-center;
+}
+
+.button_menu{
+    @apply block lg:hidden;
+    @apply text-xl;
+    @apply focus-within:outline-none;
+    @apply text-blue-500 font-bold;
+    @apply hover:text-blue-700;
+}

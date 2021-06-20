@@ -1,0 +1,57 @@
+.container {
+  @apply min-h-screen h-screen;
+  @apply flex-col justify-center items-center;
+  @apply bg-no-repeat bg-cover bg-center bg-fixed;
+  @apply overflow-auto;
+  background-image: url('../assets/background.svg');
+}
+
+.body {
+  @apply flex flex-col justify-end;
+}
+
+.landing_page {
+  @apply w-full h-full;
+  @apply bg-transparent;
+  @apply mt-28 md:mt-20 p-10;
+  @apply flex flex-col items-center justify-center gap-5;
+}
+
+.image_container {
+  @apply w-full flex justify-center;
+  @apply  md:mt-14 lg:mt-28;
+}
+
+.text_container{
+  @apply flex flex-col;
+  @apply w-full md:w-1/2 text-center tracking-wide;
+  @apply text-white;
+  @apply gap-5;
+}
+
+.heading_text {
+  @apply font-bold;
+  @apply text-2xl lg:text-4xl;
+}
+
+.subheading_text {
+  @apply font-medium;
+  @apply text-lg lg:text-xl;
+}
+
+.button_container{
+  @apply w-full flex justify-center;
+}
+
+.button_primary{
+  @apply bg-white;
+  @apply border-white border-2 rounded;
+  @apply text-blue-500 font-bold;
+  @apply focus-within:outline-none;
+  @apply hover:bg-gray-50;
+  @apply hover:shadow-xl;
+  @apply hover:shadow-md;
+  @apply p-2 ;
+  @apply px-2 md:px-6;
+  @apply w-full md:w-max;
+}
