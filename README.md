@@ -12,15 +12,17 @@ This is the repository for prototype of a simple landing page using NextJS. Ther
 
 ## Getting Started
 
-You can access the app by cloning it in your machine and execute these commands:
+You can access the app by:
 
-```bash
-npm install
-npm run dev
-# or
-yarn install
-yarn dev
-```
-Or by accessing through this [link](https://prototype-buy1take1-landing.vercel.app).
+1. Cloning it in your machine and execute these commands:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  ```bash
+  npm install
+  npm run dev
+  # or
+  yarn install
+  yarn dev
+  ```
+  Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+2. By accessing through this [link](https://prototype-buy1take1-landing.vercel.app).
