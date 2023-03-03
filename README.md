@@ -30,4 +30,4 @@ You can access the app by:
     yarn dev
     ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
