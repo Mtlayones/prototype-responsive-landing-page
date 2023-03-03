@@ -5,6 +5,11 @@ This is the repository for a simple landing page using NextJS. There only functi
 ## Author
 -   Mark Adrian Layones
 
+## TechStack
+1. Next
+2. JavaScript
+3. Tailwind
+
 ## Getting Started
 
 You can access the app by cloning it in your machine and execute these commands:
