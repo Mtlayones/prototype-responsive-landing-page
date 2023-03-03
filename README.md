@@ -1,4 +1,4 @@
-# Responsive Sample Landing Page
+# Simple Responsive Landing Page
 
 ## Description
 This is the repository for a simple landing page using NextJS. There only functionalities here are the sign up and sign in interface.
