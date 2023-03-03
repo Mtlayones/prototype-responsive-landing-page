@@ -13,7 +13,7 @@ You can access the app by cloning it in your machine and execute these commands:
 npm install
 npm run dev
 # or
-yarn intstall
+yarn install
 yarn dev
 ```
 
