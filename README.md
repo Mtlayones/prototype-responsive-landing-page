@@ -21,5 +21,6 @@ npm run dev
 yarn install
 yarn dev
 ```
+Or by accessing through this [link](https://prototype-buy1take1-landing.vercel.app).
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
